@@ -1,11 +1,11 @@
 .home {
   position: relative;
+  height: calc(100vh - var(--header-height));
 
-  
-  &_text {
+  &_text_container {
     color: white;
   }
-  
+
   &_bg_image {
     position: absolute;
     top: 0;
@@ -17,6 +17,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../../assets/workers.webp');
-    filter: brightness(50%);
+    filter: brightness(32%);
   }
 }

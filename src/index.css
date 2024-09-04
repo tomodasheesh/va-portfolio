@@ -6,3 +6,16 @@ body {
   margin: 0;
   font-family: "SUSE", sans-serif;
 }
+
+.d-flex {
+  display: flex;
+}
+
+.centered {
+  justify-content: center;
+  align-items: center;
+}
+
+.h-full {
+  height: 100%
+}
