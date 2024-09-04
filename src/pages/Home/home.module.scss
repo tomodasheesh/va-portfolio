@@ -1,22 +1,4 @@
 .home {
-  position: relative;
-  height: calc(100vh - var(--header-height));
-
-  &_text_container {
-    color: white;
-  }
-
-  &_bg_image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: -1;
-    height: calc(100vh - var(--header-height));
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('../../assets/workers.webp');
-    filter: brightness(32%);
-  }
+  height: 100vh;
+  width: 100%;
 }

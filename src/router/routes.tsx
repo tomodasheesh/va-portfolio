@@ -1,5 +1,5 @@
 import MainLayout from '../layouts/MainLayout';
-import Home from '../pages/Home/Home';
+import Home from '../pages/home/Home';
 
 import type { RouteObject } from 'react-router-dom';
 
