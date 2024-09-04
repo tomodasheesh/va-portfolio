@@ -9,7 +9,7 @@ export default function Home() {
     <div className={styles.home}>
       <div className={styles.home_bg_image} />
       
-      <Grid 
+      <Grid
         container
         className={`h-full centered ${styles.home_text_container}`}
       >
